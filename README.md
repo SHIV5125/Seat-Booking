@@ -56,7 +56,7 @@ A smart seat reservation system for a train built with **Next.js**, **Node.js**,
 ---
 
 ## 📂 Folder Structure
-train-seat-booking/
+<pre> ``` train-seat-booking/
 ├── client/                         # Next.js Frontend
 │   ├── .next/
 │   ├── node_modules/
@@ -104,51 +104,61 @@ train-seat-booking/
 │   ├── package.json
 │   ├── package-lock.json
 
+ ``` </pre>
 
-
+---
 ## 🚀 Getting Started (Local Setup)
-
-### 1 . clone the repo
+Step 1: Clone the Repository
 ```bash
 git clone https://github.com/SHIV5125/Seat-Booking.git
 cd Seat-Booking
+```
 
-### 2. Backend Setup (Express + PostgreSQL)
+Step 2: Backend Setup (Express + PostgreSQL)
 ```bash
 cd server
 npm install
+```
 
-## Start the Server 
+✅ Start the backend server:
 ```bash
 npm start
+```
 
-### 3.Frontend Setup (Next.js)
-
+Step 3: Frontend Setup (Next.js)
 ```bash
 cd ../client
 npm install
+```
 
-## start the frontend app:
+✅ Start the frontend app:
 ```bash
 npm run dev
+```
 
 
-API Endpoints
-🔐 Authentication
-Method	Endpoint	 Description
-POST	/api/signup	 Register new user
-POST	/api/login	 Login & receive JWT
+---
+## 📡 API Endpoints
 
-Seat Booking
-Method	Endpoint	               Description
-GET     /api/seats	               Fetch all seat data
-POST	/api/seats//book-multiple  Book 1 to 7 seats
-POST	/api/seats//cancel-all     Reset seat bookings
+### 🔐 Authentication
+
+| Method | Endpoint      | Description            |
+|--------|---------------|------------------------|
+| POST   | `/api/signup` | Register new user      |
+| POST   | `/api/login`  | Login & receive JWT    |
+
+### 🪑 Seat Booking
+
+| Method | Endpoint                  | Description           |
+|--------|---------------------------|-----------------------|
+| GET    | `/api/seats`              | Fetch all seat data   |
+| POST   | `/api/seats/book-multiple`| Book 1 to 7 seats     |
+| POST   | `/api/seats/cancel-all`   | Reset seat bookings   |
 
 All protected routes require Authorization: Bearer <JWT> header.
-
+---
 🙋‍♂️ Author
 Shivam
 💻 Full Stack Developer
-📧 shivam.email@example.com
+📧 shivamsahane5125@gmail.com
 
