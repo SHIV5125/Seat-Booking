@@ -13,7 +13,7 @@ A smart seat reservation system for a train built with **Next.js**, **Node.js**,
 
 ## 🌐 Live Deployments
 
-- **Frontend (Next.js):** [https://seat-booking-tau.vercel.app]  
+- **Frontend (Next.js):** [https://seat-booking-tau.vercel.app/]  
 - **Backend (Express.js):** [https://seat-booking-1.onrender.com]
 
 ---
