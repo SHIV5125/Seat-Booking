@@ -2,7 +2,7 @@ import axios from "axios";
 
 // Axios instance with base URL
 const api = axios.create({
-  baseURL: "https://seat-booking-1.onrender.com/api",
+  baseURL: "http://localhost:5000/api",
 });
 
 // Attach token to every request if available
