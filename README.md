@@ -6,8 +6,8 @@ A smart seat reservation system for a train built with **Next.js**, **Node.js**,
 
 ## 📽️ Demo Video
 
-🎥 [Click here to watch the demo video](#)  
-*(Replace `#` with the uploaded video link)*
+🎥 [Click here to watch the demo video](https://drive.google.com/file/d/1MxpnjXKcy4bGG0z-mrMZ-ZShyeCILW9t/view?usp=sharing)  
+
 
 ---
 
@@ -161,3 +161,4 @@ All protected routes require Authorization: Bearer <JWT> header.
 Shivam
 💻 Full Stack Developer
 📧 shivamsahane5125@gmail.com
+
